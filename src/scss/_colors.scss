@@ -1,0 +1,71 @@
+// Color system
+// stylelint-disable
+
+$white:     #fff !default;
+$gray-base: #181b1e !default;
+$black:     #000 !default;
+$grey:     #333333 !default;
+
+$bgcolor:  #2e929e!default;
+$primary:  #E5A7E2!default;
+$secondary:  #6AD372!default;
+$blue:       #61DEE2 !default;
+$indigo:     #6610f2 !default;
+$purple:     #6f42c1 !default;
+$pink:       #FCF8EE !default;
+$red:        #f86c6b !default;
+$orange:     #f8cb00 !default;
+$yellow:     #ffc107 !default;
+$green:      #4dbd74 !default;
+$teal:       #20c997 !default;
+$cyan:       #17a2b8 !default;
+$light-blue: #e3fcff !default;
+$ocean-blue: #55BECB !default;
+$sky-blue: 	#EAF8FA!default;
+$light-purple: #E5A7E2!default;
+
+
+
+$colors: () !default;
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "light-blue": $light-blue,
+    "ocean-blue": $ocean-blue,
+    "white":      $white,
+    "grey":       $grey,
+    "sky-blue":   $sky-blue,
+    "light-purple":   $light-purple,
+  ),
+  $colors
+);
+
+$primary:       $primary !default;
+$secondary:     $grey !default;
+$success:       $green !default;
+$info:          $light-blue !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+  ),
+  $theme-colors
+);
+

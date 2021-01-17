@@ -1,0 +1,164 @@
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) 
+and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2)
+{
+	.inner-container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.hero-cart {
+		margin-right: 0;
+		width: 90%;
+		margin-left: 30px;
+	}
+	
+	.portfolio-item {
+		max-width: 100%;
+		margin-left: 30px;
+		text-align: center;
+	}
+	
+	.no-margin {
+		margin-right: 30px;
+	}
+	
+	.btn-next {
+		right: -23px;
+	}
+	
+	footer {
+		.row {
+			padding-left: 50px;
+			padding-right: 50px;
+			
+			ul {
+				text-align: left;
+			}
+		}
+	}
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) 
+and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	body {
+		font-size: 85%;
+	}
+	
+	.navbar-dark .navbar-nav .nav-link {
+		font-size: 1em;
+	
+	}
+	
+	.container-fluid{
+		margin-left: 0px;
+	}
+	
+	.hero-cart {
+		margin-right: 10px;
+		margin-left: 10px;
+		height: 405px;
+		
+		.addtocart-info {
+			top: 0;
+			right: 13px;
+		}
+	}
+
+	.btn-next {
+		right: -36px;
+		top: 34%;
+	}
+	
+	.btn-add {
+		font-size: 1.2em!important;	
+	}
+
+	.inner-container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.section-title {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.middle {
+		margin-top: 0px;
+	}
+	
+	#shopNow {
+		.section-title {
+			width: 100%;
+			
+		}	
+	}
+	
+	.products-info {
+		margin: 10px 0 10px 7%;
+		h4 {
+			font-size: 2.4em;
+		}
+		
+		p {
+			font-size: 1.5em;
+		}
+	}
+	
+	.reposition {
+		right: 69px;
+		bottom: 56px;
+	}
+	
+	.btn-round {
+		font-size: 1.8em;
+		
+	}
+	
+	.img-fluid {
+		margin: 10px 0 10px 7%;
+	}
+	
+	.portfolio-item {
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.product-carousal {
+		li {
+			padding: 10px;
+			min-height: auto;
+			
+			img {
+				width:60%;
+			}
+		}
+		
+		li.hide {
+			display: none;
+		}
+	}
+	
+	.hero-cart .cart-info {
+		margin-left: -53px;
+	}
+	
+	footer {
+		.row {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		
+		ul, p {
+			text-align: center;
+		}
+		
+		ul {
+			padding-left: 0;
+		}
+	}
+}

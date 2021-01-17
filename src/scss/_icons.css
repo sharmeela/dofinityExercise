@@ -1,0 +1,23 @@
+.helpIcon {
+	background: url("../assets/img/icons/helpIcon.png");
+	background-size: 24px 24px;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	right: -10px;
+}
+
+
+#purchase .helpIcon, #dmkt .helpIcon,  {
+	right:8px;
+}
+
+.downloadIcon {
+	background: url("../assets/img/icons/downloadIcon.png");
+	background-size: 15px 15px;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 21px;
+	top: 16px;
+}
